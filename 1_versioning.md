@@ -8,8 +8,7 @@ Med versionshantering menas här att en mapp eller fil's innehåll kan finnas i 
 2. Skapa mappen ```Mina Repos``` i filsystemet
 3. Skapa mappen ```git_lab``` inuti ```Mina Repos```
 4. Högerklicka mappen och välj ```Git Bash Here```
-5. ```git config --global user.name "johansundstrom"``` - Tillägget --global ger 
-åtkomst i alla projektmappar
+5. ```git config --global user.name "johansundstrom"``` - Tillägget ```--global``` sätter inställningar att gälla i alla projektmappar
 6. ```git config --global user.email "johan.sundstrom@mdh.se"```
 7. ```git config --global color.ui auto``` - Färg UI
 8. ```git config --list``` Listar konfigurering
@@ -19,11 +18,11 @@ Med versionshantering menas här att en mapp eller fil's innehåll kan finnas i 
 10. Sänd ```ls``` (list) konstatera att det är tomt
 11. Sänd ```touch index.html``` Skapar index.html
 12. Sänd ```ls```
-13. Sänd ```ls -l``` (lista rättigheter)
+13. Sänd ```ls -l``` (long format, lista rättigheter)
 Bokstäverna rwx står för Read/Write/Execute rättighet. Dessa visas tre gånger, först för ```Owner```, därefter ```Group``` och sist ```Others``` (world). RWX benämns ibland 7 (1+2+4). Första biten kan vara - (fil) eller d (katalog)
-14. Sänd ```ls --full``` (lista allt)
-15. Sänd ```ls -a``` (lista dolda files)
-16. Sänd ```ls -a --full``` (lista allt och dolda filer)
+14. Sänd ```ls -f``` (sorterar inte, listar även mappar som börjar med dot)
+15. Sänd ```ls -a``` (listar även mappar som börjar med dot)
+16. Sänd ```ls -a -full``` (lista allt och dolda filer)
 17. Besvara: När skapades filen?
 18. Vad har filen för filrättigheter?
 19. Läs om chmod ```https://ss64.com/bash/chmod.htm```
